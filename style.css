@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 92.3vh;
+    width: 100%;
+    background-color: #fff;
+    background: url(img/b238062ccaa07517f1e0084928c1b2ed.jpg) no-repeat center center/cover;
+}
+.card{
+    width: 90%;
+    max-width: 380px;
+    background-color: #966c8e3b;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    margin: 50px auto 0;
+    padding: 30px 20px;
+    text-align: center; 
+}
+.search{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 45px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.search button{
+    padding: 0.65rem 0.8rem;
+    border-radius: 50%;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button i{
+    font-size: 1.3rem;
+    color: #114169;
+}
+.weather img{
+    width: 100px;
+    margin-top: 1vw;
+}
+.tempreture h2{
+    font-size: 3.8rem;
+    color: #fff;
+}
+.tempreture p{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+.wind-humi{
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.humidity-div{
+    display: flex;
+    align-items: center;
+}
+.humidity-div img{
+    width: 35px;
+    margin: 0 0.8vw;
+}
+.humidity-div span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.humidity-div p{
+    font-size: 1.1rem;
+    color: #fff;
+}
+.wind{
+    display: flex;
+    align-items: center ;
+}
+.wind img{
+    width: 35px;
+    margin: 0 0.8vw;
+}
+.wind span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.wind p{
+    font-size: 1.1rem;
+    color: #fff;
+}
+#weather{
+    display: none;
+}
+.error{
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+}
+
+@media (max-width:500px) {
+    .tempreture h2{
+        font-size: 2.8rem;
+    }
+    .tempreture p{
+        font-size: 1.3rem;
+    }
+    .humidity-div img{
+        width: 40px;
+        margin: 0 2vw;
+    }
+    .humidity-div span{
+        font-size: 1.1rem;
+    }
+    .humidity-div p{
+        font-size: 0.9rem;
+    }
+    .wind img{
+        width: 40px;
+        margin: 0 2vw;
+    }
+    .wind span{
+        font-size: 1.1rem;
+    }
+    .wind p{
+        font-size: 0.9rem;
+    }
+    .wind-humi{
+        margin-top: 10vw;
+    }
+}
